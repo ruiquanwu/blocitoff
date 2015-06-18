@@ -1,0 +1,7 @@
+<br>
+    <h4>Add item</h4>
+<%= form_for [user, item] do |f| %>
+  <%= f.label :name%>
+  <%= f.text_field :name %>
+  <%= f.submit %>
+<%end%>
