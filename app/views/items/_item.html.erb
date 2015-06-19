@@ -1,10 +1,9 @@
-<%= content_tag :div, class: 'row', id: "item-#{item.id}" do %>
-  <br>
+<%= content_tag :div, id: "item-#{item.id}" do %>
   <div class="col-md-6">
     <p><%= item.name %></p>
   </div>
   <div class="col-md-4">
-    something
+    <p> <%= item.days_left %> </p>
   </div>
   <div class="col-md-2">
     <p align="center">
