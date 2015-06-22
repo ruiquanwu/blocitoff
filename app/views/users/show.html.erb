@@ -1,7 +1,7 @@
 <h1> <%= @user.name || @user.email %> </h1>
 <p> create at <%= time_ago_in_words(@user.created_at) %> ago</p>
 <p> has <%= pluralize(@user.items.count, "item") %> to do</p>
-<div class="row">
+<div class="row text-center">
     <h2 align="center"> My todos </h2>
     <div class="col-md-6">
       <p class='lead'> description </p>
